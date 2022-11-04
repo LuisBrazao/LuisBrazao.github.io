@@ -65,12 +65,32 @@ li {
   height: 400px;
   background-color: #0007ef;
   color: white;
+  font-family: "Roboto Slab";
 }
 
-.main-part h2 {
+.main-part h1 {
   padding-top: 150px;
 }
 
-.cards-div h3 {
+.cards-div h2 {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cards-div {
+  padding-bottom: 50px;
+}
+
+li {
+  font-size: 25px;
+}
+
+.background-div {
+  color: white;
+}
+
+.skills-div {
+  padding-bottom: 75px;
   color: white;
 }
