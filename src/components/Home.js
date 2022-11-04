@@ -130,7 +130,7 @@ export default class Home extends Component {
         >
           <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="me-5 d-none d-lg-block">
-              <span>Get connected with us on social networks:</span>
+              <span>Connect with me on social media:</span>
             </div>
 
             <div>
