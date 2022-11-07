@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Cards from "./Cards";
+import { Cards } from "./Cards";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   FaReact,
@@ -41,13 +41,13 @@ export default class Home extends Component {
         </Row>
         <Row>
           <Col className="text-center cards-div">
-            <h2>Projects</h2>
+            <h2>PROJECTS</h2>
             <Cards />
           </Col>
         </Row>
         <Row>
-          <Col className="text-center background-div">
-            <h2>Background</h2>
+          <Col className="text-left background-div">
+            <h2>BACKGROUND</h2>
             <h3>Education</h3>
             <ul>
               <li>
@@ -67,61 +67,67 @@ export default class Home extends Component {
           </Col>
         </Row>
         <Row>
-          <Col className="text-center skills-div">
-            <h3>Skills</h3>
-            <h3>Programming Languages</h3>
-            <ul>
-              <li>
-                Javascript <DiJavascript />
-              </li>
-              <li>
-                Python <FaPython />
-              </li>
-              <li>
-                Java <FaJava />
-              </li>
-              <li>
-                HTML/CSS <FaHtml5 />
-                <FaCss3Alt />
-              </li>
-              <li>
-                C# <SiCsharp />
-              </li>
-              <li>
-                PHP <FaPhp />
-              </li>
-            </ul>
-            <h3>Game Engines</h3>
-            <ul>
-              <li>
-                Unity <FaUnity />
-              </li>
-              <li>
-                Dreams PS4 <FaPlaystation />
-              </li>
-            </ul>
-            <h3>Libraries and Framworks</h3>
-            <ul>
-              <li>
-                React.js <FaReact />
-              </li>
-              <li>
-                Node.js <FaNodeJs />
-              </li>
-              <li>Express.js</li>
-              <li>
-                Bootstrap.js <FaBootstrap />
-              </li>
-            </ul>
-            <h4>Backend</h4>
-            <ul>
-              <li>
-                MongoDB <DiMongodb />
-              </li>
-              <li>
-                MySQL <DiMysql />
-              </li>
-            </ul>
+          <Col className="text-left skills-div">
+            <Row>
+              <Col>
+                <h3>Skills</h3>
+                <h3>Programming Languages</h3>
+                <ul>
+                  <li>
+                    Javascript <DiJavascript />
+                  </li>
+                  <li>
+                    Python <FaPython />
+                  </li>
+                  <li>
+                    Java <FaJava />
+                  </li>
+                  <li>
+                    HTML/CSS <FaHtml5 />
+                    <FaCss3Alt />
+                  </li>
+                  <li>
+                    C# <SiCsharp />
+                  </li>
+                  <li>
+                    PHP <FaPhp />
+                  </li>
+                </ul>
+                <h3>Game Engines</h3>
+                <ul>
+                  <li>
+                    Unity <FaUnity />
+                  </li>
+                  <li>
+                    Dreams PS4 <FaPlaystation />
+                  </li>
+                </ul>
+              </Col>
+              <Col>
+                <h3 className="startLower">Libraries and Framworks</h3>
+                <ul>
+                  <li>
+                    React.js <FaReact />
+                  </li>
+                  <li>
+                    Node.js <FaNodeJs />
+                  </li>
+                  <li>Express.js</li>
+                  <li>
+                    Bootstrap.js <FaBootstrap />
+                  </li>
+                </ul>
+                <h3>Backend</h3>
+                <ul>
+                  <li>
+                    MongoDB <DiMongodb />
+                  </li>
+                  <li>
+                    MySQL <DiMysql />
+                  </li>
+                </ul>
+              </Col>
+            </Row>
           </Col>
         </Row>
         <MDBFooter
