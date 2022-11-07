@@ -51,12 +51,14 @@ export default class Home extends Component {
             <h3>Education</h3>
             <ul>
               <li>
-                Bachelors degree, Information Technology, Faculdade de Ciências
-                da Universidade de Lisboa
+                Postgraduate degree, Game Design, IADE, Nov 2021 - Sept 2022
               </li>
-              <li>Web Development Bootcamp Ironhack</li>
-              <li>Postgraduate degree, Game Design, IADE</li>
-              <li>Game Design course in Coursera</li>
+              <li>Game Design course in Coursera, June 2021 - Oct 2021</li>
+              <li>Web Development Bootcamp Ironhack Oct 2020 - Dec 2020</li>
+              <li>
+                Bachelors degree, Information Technology, Faculdade de Ciências
+                da Universidade de Lisboa, Sept 2017 - June 2020
+              </li>
             </ul>
             <h3>Experience</h3>
             <ul>
@@ -71,7 +73,7 @@ export default class Home extends Component {
             <Row>
               <Col>
                 <h3>Skills</h3>
-                <h3>Programming Languages</h3>
+                <h4>Programming Languages</h4>
                 <ul>
                   <li>
                     Javascript <DiJavascript />
@@ -93,7 +95,7 @@ export default class Home extends Component {
                     PHP <FaPhp />
                   </li>
                 </ul>
-                <h3>Game Engines</h3>
+                <h4>Game Engines</h4>
                 <ul>
                   <li>
                     Unity <FaUnity />
@@ -104,7 +106,7 @@ export default class Home extends Component {
                 </ul>
               </Col>
               <Col>
-                <h3 className="startLower">Libraries and Framworks</h3>
+                <h4 className="startLower">Libraries and Framworks</h4>
                 <ul>
                   <li>
                     React.js <FaReact />
@@ -117,7 +119,7 @@ export default class Home extends Component {
                     Bootstrap.js <FaBootstrap />
                   </li>
                 </ul>
-                <h3>Backend</h3>
+                <h4>Backend</h4>
                 <ul>
                   <li>
                     MongoDB <DiMongodb />
