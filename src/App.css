@@ -88,19 +88,17 @@ li {
 
 .background-div {
   color: white;
+  padding-left: 300px;
 }
 
 .skills-div {
   padding-bottom: 75px;
   color: white;
+  padding-left: 300px;
 }
 
 h3 h4 {
   font-weight: bold;
-}
-
-.text-left {
-  padding-left: 300px;
 }
 
 .startLower {
@@ -109,4 +107,8 @@ h3 h4 {
 
 .center-self {
   justify-content: center;
+}
+
+.start-left {
+  padding-right: 1145px;
 }

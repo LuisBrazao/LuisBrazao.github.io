@@ -41,7 +41,7 @@ export default class Home extends Component {
         </Row>
         <Row>
           <Col className="text-center cards-div">
-            <h2>PROJECTS</h2>
+            <h2 className="start-left">PROJECTS</h2>
             <Cards />
           </Col>
         </Row>

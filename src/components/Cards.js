@@ -25,9 +25,18 @@ function LostIslandModal(props) {
       <Modal.Body className="text-center">
         <LostIsland />
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          First-person platformer in which the player takes on the role of a
+          castaway in a lost island where he discovers the truth about the old
+          gods.
+        </p>
+        <p>
+          <a
+            href="https://indreams.me/dream/mZonSiYNhdm"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Link to the Game
+          </a>
         </p>
       </Modal.Body>
       <Modal.Footer>
@@ -53,9 +62,18 @@ function PyramidSchemeModal(props) {
       <Modal.Body className="text-center">
         <PyramidScheme />
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          Tired of being poor, you decide to get as much money as you can, as
+          fast as you can. What better way to do that than joining a pyramid
+          scheme.
+        </p>
+        <p>
+          <a
+            href="https://indreams.me/dream/mjjKZdUenKm"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Link to the Game
+          </a>
         </p>
       </Modal.Body>
       <Modal.Footer>
@@ -80,10 +98,15 @@ function SpaceRunnerModal(props) {
       </Modal.Header>
       <Modal.Body className="text-center">
         <SpaceRunner />
+        <p>2D Platformer created in Unity</p>
         <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
+          <a
+            href="https://wakashima.itch.io/space-runner"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Link to the Game
+          </a>
         </p>
       </Modal.Body>
       <Modal.Footer>

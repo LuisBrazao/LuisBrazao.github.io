@@ -13,17 +13,6 @@ export default class PyramidScheme extends Component {
             <Col className="d-flex justify-content-center text-center">
               <Carousel>
                 <Carousel.Item>
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/v9MQfvAX60Y"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                </Carousel.Item>
-                <Carousel.Item>
                   <img
                     className="d-block w-100"
                     src="images/Pyramid_Scheme_Title.png"
@@ -33,13 +22,15 @@ export default class PyramidScheme extends Component {
                   />
                 </Carousel.Item>
                 <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="images/Pyramid_Scheme_Title.png"
-                    alt="Third slide"
+                  <iframe
                     width="560"
                     height="315"
-                  />
+                    src="https://www.youtube.com/embed/v9MQfvAX60Y"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
                 </Carousel.Item>
               </Carousel>
             </Col>

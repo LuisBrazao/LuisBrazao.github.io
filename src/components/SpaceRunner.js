@@ -21,7 +21,16 @@ export default class SpaceRunner extends Component {
                 <Carousel.Item>
                   <img
                     className="d-block w-100"
-                    src="images/Space_Runner_Title.png"
+                    src="images/Jumping_SR.png"
+                    alt="Third slide"
+                    width="560"
+                    height="315"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    className="d-block w-100"
+                    src="images/Killing_Enemy_SR.png"
                     alt="Third slide"
                     width="560"
                     height="315"
